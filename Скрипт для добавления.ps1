@@ -1,0 +1,1 @@
+﻿Get-ADComputer -Filter { OperatingSystem -Like '*10*' } -Properties OperatingSystem |ForEach-Object {Add-ADGroupMember -Identity "MF_Desctop" -Members $_}

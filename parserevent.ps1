@@ -1,0 +1,1 @@
+﻿Get-WinEvent -LogName application -MaxEvents 1
